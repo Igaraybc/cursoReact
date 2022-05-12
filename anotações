@@ -1,0 +1,18 @@
+Para iniciar um projeto já predefinido no React utiliza-se comandos do Vite:
+
+npm create vite@latest nomeDoApp --template react
+
+Dentro do projeto criado, no terminal:
+
+npm install (para trazer a pasta node_modules)
+
+rodar o projeto:
+
+npm run dev
+
+JSX => Sintaxe que o React usa para utilizar a interface de forma declarativa.
+
+As funções tem que ter um retorno que retornam conteúdo HTML e tudo é feito a partir do JavaScript.
+
+Uma expressão JXS tem que retornar somente um elemento, então temos que embrulhar todo o html que estamos retornando para se transformar num elemento só.
+
