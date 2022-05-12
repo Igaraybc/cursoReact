@@ -1,14 +1,14 @@
 Para iniciar um projeto já predefinido no React utiliza-se comandos do Vite:
 
-npm create vite@latest nomeDoApp --template react
+==> npm create vite@latest nomeDoApp --template react
 
 Dentro do projeto criado, no terminal:
 
-npm install (para trazer a pasta node_modules)
+==> npm install (para trazer a pasta node_modules)
 
 rodar o projeto:
 
-npm run dev
+==> npm run dev
 
 JSX => Sintaxe que o React usa para utilizar a interface de forma declarativa.
 
@@ -16,3 +16,26 @@ As funções tem que ter um retorno que retornam conteúdo HTML e tudo é feito 
 
 Uma expressão JXS tem que retornar somente um elemento, então temos que embrulhar todo o html que estamos retornando para se transformar num elemento só.
 
+=> Arquivos css:
+
+global.css : Geralmente contém os resets do layout como
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+OBS: Importar para outro elemento jsx você tem que colocar a extensão .css
+mas outros arquivos não precisa;
+
+==> <div className='nomedaclasse'></div> para declarar uma class dentro do componente jsx
+
+=> Armazenar um estado
+
+==> const [nomedavariavel, setNomedaVariavel(função que atualiza o estado)] = useState();
+
+ex.: <input onChange={e => setStudentName(e.target.value)}>
+
+Podemos declarar variáveis dentro da função com let variavel mas elas servirão mais como apoio e não vão refletir na nossa interface porque para isso utilizaremos os estados.
+ 
