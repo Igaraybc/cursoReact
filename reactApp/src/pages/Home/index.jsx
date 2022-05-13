@@ -43,7 +43,7 @@ export function Home() {
           avatar: data.avatar_url
         })
     })  
-  }) ooouuu utilizando async...*/
+  }) ooouuu utilizando...*/
 
   useEffect(() => {
     async function fetchData() {
