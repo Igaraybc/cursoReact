@@ -38,4 +38,34 @@ mas outros arquivos não precisa;
 ex.: <input onChange={e => setStudentName(e.target.value)}>
 
 Podemos declarar variáveis dentro da função com let variavel mas elas servirão mais como apoio e não vão refletir na nossa interface porque para isso utilizaremos os estados.
+
+=> Propriedade key
+
+==> <Card key={valorUnico} (...) >
+
+a propriedade key serve para distinguir os elementos gerados quando estão dentro de uma lista de repetição a cada criação o elemento gerado deve possuir uma key única não podendo repetir. Geralmente utilizamos o id do objeto.
+
+=> Hooks
+
+==> use<NomedoHook>
+ex.: useState()
+
+São funções que auxiliam a conectar o estado das variáveis com o ciclo do componente
+
+==> useEffect(() => {
+    //corpo do useEffect é tipo um ngInit, uma função que é executada assim que a interface é renderizada
+}, [//estados que o useEffect depende, se estiver vazio vai ser executado apenas uma vez]);
+
+No useEffect não tem como usar o async diretamente como async useEffect(){...}
+mas posso declarar uma função async dentro do useEffect 
+Ex.:
+    useEffect(){
+        async function fetch(){
+            (...)
+        }
+    }
+
+  
+
+
  
