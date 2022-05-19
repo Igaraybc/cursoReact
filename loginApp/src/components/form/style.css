@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:auto;
+}
+
+.form input{
+    margin: 0.5rem;
+    padding: 10px;
+
+    border: none;
+    border-radius: 0.25rem;
+
+    background-color: antiquewhite;
+}

@@ -1,0 +1,19 @@
+.task{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    background-color: rgb(253, 253, 253);
+    padding:8px;
+    border-radius: 0.5rem;
+}
+
+.task select{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(49, 12, 83);
+    color: white;
+}

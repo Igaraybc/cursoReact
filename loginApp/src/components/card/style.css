@@ -1,0 +1,14 @@
+.card{
+    background-color: rgb(255, 189, 189);
+    width: 50%;
+    border-radius: 0.25rem;
+    
+    margin: auto;
+    margin-top: 24px;
+    padding:24px;
+}
+
+small {
+    opacity: 0.7;
+    margin-left: 12px;
+}
