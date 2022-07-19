@@ -1,6 +1,7 @@
 Para iniciar um projeto já predefinido no React utiliza-se comandos do Vite:
 
 ==> npm create vite@latest nomeDoApp --template react
+==> npx create-react-app <nome-app>
 
 Dentro do projeto criado, no terminal:
 
